@@ -30,12 +30,14 @@ public class Calculator {
 	}
 
 	private static int subtract(int x, int y) {
-		int diff = 0;
-		if (x > y) {
-			// complete the code
-		} else {
-			// complete the code
+		int diff =0;
+		if (x>y) {
+			diff=x-y;
+		}else {
+			diff=-(y-x);
+		
 		}
+		
 
 		return diff;
 	}
@@ -52,10 +54,10 @@ public class Calculator {
 
 	private static int divide(int x, int y) {
 		int divValue = 0;
-		if (x == 0 || y == 0) {
-			// complete the code
+		if (y == 0) {
+			System.out.println("Error");
 		} else {
-			// complete the code
+			divValue=x/y;
 		}
 		return divValue;
 
