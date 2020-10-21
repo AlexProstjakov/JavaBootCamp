@@ -9,6 +9,7 @@ public class InheritanceSample {
 		p.setName("John Doe");
 		p.setAge(18);
 		
+		
 		System.out.println("-----------------------------");
 		//Student_I inherit the methods and behavior from the Person_I class
 		Student_I s = new Student_I(); // Notice that Student_I constructor calls Person_I constructor
