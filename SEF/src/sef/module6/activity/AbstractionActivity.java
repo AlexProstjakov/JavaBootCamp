@@ -8,7 +8,7 @@ public class AbstractionActivity {
 	public static void main(String[] args) {
 		
 		Shape a = new Rectangle(5,6);
-		Shape b = new Rectangle(10,20);
+		Shape b = new Rectangle(20,10);
 		
 		System.out.println("------------------------");
 		
